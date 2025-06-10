@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page d'accueil IA - Structure</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #f5f5f5; padding: 20px; text-align: center; }
+    nav ul { list-style: none; display: flex; justify-content: center; padding: 0; }
+    nav li { margin: 0 15px; }
+    section { padding: 60px 20px; text-align: center; border-bottom: 1px solid #eee; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: auto; }
+    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header>
+   <div class="header-container">
+   <div class="logo-title">
+	<img src="images/logo_ai.jpg" alt="logo du site" class="logo" />
+   </div>
+    <h1 style="font-family: Tahoma;">IA POUR TOUS</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="mycourse.HTML">Commencer le cours</a></li>
+        <li><a href="#objectifs">Building AI</a></li>
+        <li><a href="#cours">Communauté en ligne</a></li>
+        <li><a href="#temoignages">#AIChallenge</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </nav>
+   </div>
+  </header>  <section id="accueil">
+    <h2>Bienvenue dans le cours en <br>ligne gratuit "IA POUR TOUS" !</h2>
+    <p style="font-size: 18px;" "font-family: Tahoma;">Rejoignez les plus de 1 million d'autres personnes <br> <br>qui apprennent les principes de base de l'IA</p>
+    <br><br><br>
+	<a href=mycourse.HTML> <button>Commencer le cours</button> </a>
+  </section>  <section id="objectifs">
+    <h2> <!-- Pourquoi suivre ce cours ? --> </h2>
+    <div class="grid">
+      <div class="card">
+		<img src="images/petit_cercle.jpg" alt="illustration de la carte" class="card-img" />
+        <h3> <!-- Accessibilité --> </h3>
+        <p>Vous vous demandez comment l'IA peut affecter votre travail ou votre vie ?</p>
+      </div>
+      <div class="card">
+		<img src="images/petit_loupe.jpg" alt="illustration de la carte" class="card-img" />
+        <h3> <!-- Connaissances utiles --> </h3>
+        <p>Vous voulez en savoir plus sur la signification réelle de l'IA et sur comment elle est créée ?</p>
+      </div>
+      <div class="card">
+		<img src="images/petit_carre.jpg" alt="illustration de la carte" class="card-img" />
+        <h3> <!-- Reconnaissance --> </h3>
+        <p>Vous voulez comprendre comment l'IA va se développer et vous affecter dans les années à venir ?</p>
+      </div>
+    </div>
+  </section>  <section id="cours">
+    <h2>Notre objectif est de démystifier l'IA pour tous !</h2>
+	<div class="card">
+    <p><strong>IA POUR TOUS</strong> est une série de cours en ligne gratuits créés par des contributeurs bénévoles des universités du Cameroun.<br><br> 
+	Nous souhaitons encourager un groupe de personnes aussi large que possible à apprendre ce que signifie l'IA, ce qui peut <br><br>
+	(et ne peut pas) être fait avec l'IA, et comment commencer à créer des méthodes d'IA.<br><br>
+	Les cours combinent théorie et exercices pratiques et peuvent être complétés à votre propre rythme.</p>
+	</div>
+  </section>  <section id="temoignages">
+    <!-- <h2>Témoignages</h2> -->
+	<div class="carousel">
+	  <div class="carousel-track">
+    <!-- <div class="grid"> -->
+      <div class="card">
+        <p>Le pari de l’intelligence artificielle est à la mesure des défis actuels et avenir : l’intelligence artificielle 
+		est un démultiplicateur de développement, de croissance et de démocratisation, à condition que son usage soit éthique</p>
+        <p><strong>S.E. Paul BIYA</strong>, Président de la République du Cameroun</p>
+      </div>
+      <div class="card">
+        <p>Dans le secteur de l’agriculture, qui est l’un des moteurs de la croissance au Cameroun, l’IA aide les agriculteurs
+		à optimiser les rendements, à surveiller la santé des cultures et du bétail, et à gérer les ressources de manière plus 
+		durable grâce à des capteurs et à l’analyse prédictive. Dans le secteur des transports, l’IA améliore l’efficacité des 
+		systèmes de transport grâce à la gestion intelligente du trafic, la prédiction des besoins en maintenance et le développement
+		de véhicules autonomes</p>
+        <p><strong>Minette Libom Li Likeng</strong>, Ministre camerounaise des Postes et Télécommunications</p>
+      </div>
+	  <div class="card">
+        <p>L'intelligence artificielle joue un rôle dans tous les domaines, de l'enseignement aux processus d'admission et à la 
+		certification. Les outils d'IA permettent également de rassembler et d'analyser de vastes ensembles de données sur l'éducation
+		afin d'éclairer l'affectation des ressources et d'influencer des décisions aussi variées que l'affectation des enseignants, 
+		la planification des calendriers scolaires, l'orientation professionnelle et les prévisions en matière d'abandon scolaire. 
+		L'IA impacte également le monde du travail ainsi que les besoins en formation, en montée en compétences et en reconversion.</p>
+        <p><strong>Paul Coustère</strong>, Directeur du Bureau Régional de l'UNESCO pour l'Afrique Centrale</p>
+      </div>
+	  <div class="card">
+        <p>Le Cameroun se positionne parmi les pays à performances intermédiaires en matière d’investissement dans l’intelligence 
+		artificielle (IA) en Afrique subsaharienne, selon l’AI Investment Potential Index (AIIPI) 2025</p>
+        <p><strong>Agence française de développement (AFD)</strong></p>
+      </div>
+	  <div class="card">
+        <p>Les Etats doivent investir dans la recherche et le développement. Ils doivent mettre en place des régulations, 
+		des lois encadrant l’IA, encadrant la protection des données, mettant en avant l’humain en favorisant la création de 
+		champions nationaux. Les jeunes camerounais créent des startups intéressantes. De ce fait, le gouvernement camerounais 
+		pourrait investir massivement dans la recherche et le développement en aidant ces jeunes-là à avoir une infrastructure 
+		et des équipements dédiés à la recherche afin de pouvoir créer des entreprises qui peuvent s’exporter à l’international »</p>
+        <p><strong>Éric Voli Bi</strong>, représentant de l’Unesco auprès de la CEEAC</p>
+      </div>
+	  <div class="card">
+        <p>Les activités à forte demande de main-d’œuvre telles que le désherbage, la pulvérisation et la récolte peuvent également 
+		être réalisées par des systèmes pilotés par l’IA.  Ce qui permet aux agriculteurs d’améliorer leur efficacité et leurs 
+		rendements agricoles. Cette automatisation des tâches offre également l’avantage de réduire les coûts de mains-d’œuvre 
+		et d’accroître la productivité. Les exploitants agricoles peuvent ainsi obtenir des rendements plus élevés sans pour 
+		autant augmenter leurs dépenses</p>
+        <p><strong>Désiré Kammogne</strong>, directeur du développement chez Wise Host</p>
+      </div>
+	  <div class="card">
+        <p>Les drones pilotés par l’IA permettent collecter des données qui pourront ensuite être analysées et exploitées par 
+		d’autres algorithmes d’IA. Ces algorithmes peuvent ensuite identifier les divers problèmes et proposer des approches 
+		de solution. Ces drones ont notamment la capacité de détecter des maladies qui réduisent la productivité, ainsi que 
+		des intrusions</p>
+        <p><strong>Jules Gadom</strong>, promoteur de l’entreprise Jetechnologie</p>
+      </div>
+      </div>
+	 </div>
+  </section>  <section id="faq">
+    <!-- <div class="grid">
+    <h2>Partie 1: Introduction à l'IA</h2>
+      <div class="card">
+        <h4>Comment m'inscrire ?</h4>
+        <p>Utilisez le bouton sur la page d'accueil.</p>
+      </div>
+      <div class="card">
+        <h4>Est-ce gratuit ?</h4>
+        <p>Oui, entièrement gratuit.</p>
+      </div>
+    </div> 
+	<p>Une introduction à l'IA pour tous ceux qui souhaitent apprendre ce que signifie l'IA, <br><br>
+	ce qui est possible (et non possible) avec l'IA, et comment elle affecte notre vie - <br><br>
+	sans aucune formation en programmation ou en mathématiques compliquée requise.</p>
+	<br>
+	<button>Commencer le cours</button> -->
+  </section>  <section id="contact">
+	<h2>NOS PARTENAIRES</h2><br><br>
+	<div class="img-row">
+    <img src="images/contact1.jpg" alt="illustration de contact" class="card-img" />
+	<img src="images/contact2.jpg" alt="illustration de contact" class="card-img" />
+	<img src="images/contact3.png" alt="illustration de contact" class="card-img" />
+	<img src="images/contact4.png" alt="illustration de contact" class="card-img" />
+	</div>
+	<!-- <h2>NOUS CONTACTER</h2> -->
+	<p><br><br><strong>Vous avez une question sur le cours ou vous avez besoin d’aide sur toute problématique liée à l'IA :</strong><br><br> 
+	<a href="#contact"><strong>contact@iapourtous.com</strong></a></p>
+  </section>  <footer>
+    <p style="font-family: Tahoma;">&copy; 2025 IA POUR TOUS, tous droits réservés.</p>
+  </footer>
+</body>
+</html>
